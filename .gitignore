@@ -1,0 +1,84 @@
+# ===== Large / non-source files that don't belong in git =====
+*.bak
+*.mdf
+*.ldf
+*.bacpac
+*.dacpac
+
+# ===== Visual Studio / .NET build output =====
+[Bb]in/
+[Oo]bj/
+*.dll
+*.pdb
+*.exe
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# ===== Visual Studio files =====
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# ===== ASP.NET =====
+*.publishsettings
+PublishScripts/
+*.dbmdl
+*.jfm
+App_Data/
+ExceptionDetailsFile/
+
+# ===== NuGet =====
+packages/
+*.nupkg
+*.nuget.props
+*.nuget.targets
+
+# ===== Visual Studio autosave / conflict backup files =====
+*~RF*.TMP
+*~RF*.tmp
+~$*
+*.orig
+
+# ===== OS junk =====
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ===== Editor / IDE junk =====
+.idea/
+*.swp
+*.swo
+
+# ===== Logs =====
+*.log
+Logs/
